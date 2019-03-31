@@ -1,0 +1,34 @@
+[debug] [2019-03-31T05:21:23.292Z] ----------------------------------------------------------------------
+[debug] [2019-03-31T05:21:23.294Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting:docs
+[debug] [2019-03-31T05:21:23.295Z] CLI Version:   6.4.0
+[debug] [2019-03-31T05:21:23.295Z] Platform:      darwin
+[debug] [2019-03-31T05:21:23.295Z] Node Version:  v10.9.0
+[debug] [2019-03-31T05:21:23.296Z] Time:          Sun Mar 31 2019 12:21:23 GMT+0700 (Indochina Time)
+[debug] [2019-03-31T05:21:23.296Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-03-31T05:21:23.308Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-03-31T05:21:23.309Z] > authorizing via signed-in user
+[debug] [2019-03-31T05:21:23.309Z] [iam] checking project m1-playground for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-03-31T05:21:23.311Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/m1-playground:testIamPermissions  
+
+[debug] [2019-03-31T05:21:25.285Z] <<< HTTP RESPONSE 200
+[debug] [2019-03-31T05:21:25.286Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/m1-playground  
+ 
+[debug] [2019-03-31T05:21:26.180Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'm1-playground'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-03-31T05:21:26.188Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/m1-playground-docs/versions  
+
+[debug] [2019-03-31T05:21:28.227Z] <<< HTTP RESPONSE 200
+[info] i  hosting[m1-playground-docs]: beginning deploy...
+[info] i  hosting[m1-playground-docs]: found 17 files in ./build
+[debug] [2019-03-31T05:21:28.240Z] [hosting] hash cache [YnVpbGQ] load error: lines is not defined
+[debug] [2019-03-31T05:21:28.269Z] [hosting] hash cache [YnVpbGQ] stored for 17 files
+[debug] [2019-03-31T05:21:28.270Z] [hosting][hash queue][FINAL]
+[debug] [2019-03-31T05:21:28.270Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/m1-playground-docs/versions/588260d1ea3cfdfc:populateFiles  
+ <request body omitted>
+[debug] [2019-03-31T05:21:30.993Z] <<< HTTP RESPONSE 200
+[debug] [2019-03-31T05:21:30.997Z] [hosting][populate queue][FINAL]
+[debug] [2019-03-31T05:21:30.997Z] [hosting] uploads queued: 2

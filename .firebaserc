@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "m1-playground"
+  },
+  "targets": {
+    "m1-playground": {
+      "hosting": {
+        "docs": [
+          "m1-playground-docs"
+        ]
+      }
+    }
+  }
+}

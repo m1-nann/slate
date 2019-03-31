@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "build": "bundle exec middleman build --clean",
+    "start": "bundle exec middleman server",
+    "deploy": "npm run build && firebase deploy --only hosting:docs"
+  }
+}
