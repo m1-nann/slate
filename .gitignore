@@ -16,6 +16,8 @@ build/
 .cache
 .vagrant
 .sass-cache
+*.cache
+.firebase/
 
 # YARD artifacts
 .yardoc
