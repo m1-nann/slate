@@ -6,7 +6,7 @@ language_tabs: # must be one of https://git.io/vQNgJ
   - dart
 
 toc_footers:
-  - <a href='https://m1studio.co'>Made by M1.Studio with ♡</a>
+  - <a href='https://m1studio.co'>Published by M1.Studio with ♡</a>
 
 includes:
 
